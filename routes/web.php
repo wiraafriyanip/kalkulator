@@ -17,3 +17,6 @@ Route::get('/', function () {
     return view('kalkulator.index');
 });
 Route::resource('itung', ItungController::class);
+
+
+
